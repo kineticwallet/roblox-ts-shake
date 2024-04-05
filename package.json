@@ -1,6 +1,7 @@
 {
 	"name": "@rbxts/shake",
-	"version": "0.1.7-ts.0",
+	"version": "0.1.7-ts.1",
+	"description": "A port of Sleitnick's Shake package for the roblox-ts ecosystem. With Janitor & JanitorExtension instead of Trove.",
 	"main": "dist/init.lua",
 	"keywords": ["shake", "random", "shaker"],
 	"author": "kineticwallet",
@@ -9,6 +10,13 @@
 	"files": ["dist", "!**/*.tsbuildinfo"],
 	"publishConfig": {
 		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kineticwallet/roblox-ts-shake"
+	},
+	"bugs": {
+		"url": "https://github.com/kineticwallet/roblox-ts-shake/issues"
 	},
 	"packageManager": "pnpm@8.15.6+sha256.01c01eeb990e379b31ef19c03e9d06a14afa5250b82e81303f88721c99ff2e6f",
 	"devDependencies": {
@@ -22,7 +30,6 @@
 	},
 	"dependencies": {
 		"@rbxts/janitor": "1.15.7-ts.0",
-		"@rbxts/janitor-extension": "1.0.0-ts.0",
-		"@rbxts/services": "^1.5.4"
+		"@rbxts/janitor-extension": "1.0.0-ts.1"
 	}
 }

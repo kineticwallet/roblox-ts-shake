@@ -9,11 +9,8 @@ dependencies:
     specifier: 1.15.7-ts.0
     version: 1.15.7-ts.0
   '@rbxts/janitor-extension':
-    specifier: 1.0.0-ts.0
-    version: 1.0.0-ts.0
-  '@rbxts/services':
-    specifier: ^1.5.4
-    version: 1.5.4
+    specifier: 1.0.0-ts.1
+    version: 1.0.0-ts.1
 
 devDependencies:
   '@biomejs/biome':
@@ -132,8 +129,8 @@ packages:
     resolution: {integrity: sha512-2kllUXLlK22OzSi3GmLT+/O70U9oB2iXp4rGFk5FLwc1pqf4W9EsInuJ0t7poLE2XnqnpW/ojff9CUNivI2+lw==}
     dev: true
 
-  /@rbxts/janitor-extension@1.0.0-ts.0:
-    resolution: {integrity: sha512-L9RV2sHjmpN5kyEHWYX0VG7ktndHbm67YFRjFIYDSq2kZtgzMiMb5JMRJraJg39NQY1zzTwZIFGTH0ukrDSMIg==}
+  /@rbxts/janitor-extension@1.0.0-ts.1:
+    resolution: {integrity: sha512-SMMDj7y2dnbJ4J+YTlpW9ibLzUx1zHLrgbxtSY27+LSr8payYMxhQ5MsJsFbcohew273A5F4paFQWUJVAz81EQ==}
     dependencies:
       '@rbxts/janitor': 1.15.7-ts.0
       '@rbxts/services': 1.5.4
